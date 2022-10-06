@@ -1,0 +1,11 @@
+ul {
+    display:flex;
+}
+
+li {
+    border: 1px solid #000;
+}
+
+#img-produto{
+    width: 300px;
+}
