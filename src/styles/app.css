@@ -3,9 +3,45 @@ ul {
 }
 
 li {
-    border: 1px solid #000;
+    border: 1px solid rgb(161, 161, 161);
+    margin: 10px;
+}
+
+nav{
+    height: 136px;
+    width: 100%;
+    background-color: black;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#img-logo{
+    border: 50px;
+    width:100px;
+    margin-top: 68px;
+    transform: translateY(-50%);
+    padding-left: 30px;
+    position: relative;
+}
+
+#menu-superior{
+    width:100%;
+    float:left;
+    margin-left: 100%;
+    transform: translateX(-50%);
 }
 
 #img-produto{
     width: 300px;
+}
+
+#produtos{
+    width: calc (100%-200px);
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 100px;
+    float: left;
 }
