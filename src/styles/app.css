@@ -1,5 +1,5 @@
 body{
-    background-color: #F1F1F1;
+    background-color: black;
 }
 
 ul {
@@ -32,6 +32,21 @@ a{
     text-decoration: none;
 }
 
+footer{
+    background-color: black;
+    height: 200px;
+    width: 100%;
+}
+
+#home-products{
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+#home-banner{
+    width: 100%;
+}
+
 #img-logo{
     border: 50px;
     width:100px;
@@ -46,6 +61,15 @@ a{
     float:left;
     margin-left: 100%;
     transform: translateX(-50%);
+}
+
+#footer-logo{
+    border: 50px;
+    width:100px;
+    margin-top: 68px;
+    transform: translateY(-50%);
+    padding-left: 30px;
+    position: relative;
 }
 
 #img-produto{
