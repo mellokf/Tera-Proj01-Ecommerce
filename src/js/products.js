@@ -32,7 +32,6 @@ const products = [
     new Product("AIR FORCE 1 '07", "Tênis Nike Air Force 1", 620.00, "https://img01.ztat.net/article/spp-media-p1/3e67cc42c6c1426f921700706f884995/2064d93dbf0842629a156d0348ec26d7.jpg?imwidth=1800&filter=packshot"),
     new Product("AIR MONARCH IV", "Tênis Nike Air Monarch IV", 670.00, "https://img01.ztat.net/article/spp-media-p1/b50c46b0816e3d8ea13376885d02f10c/6063eb3821a14015960838faec17a22d.jpg?imwidth=1800&filter=packshot"),
     new Product("DUNK HI RETRO", "Tênis Nike Dunk Hi Retro", 525.00, "https://img01.ztat.net/article/spp-media-p1/ef2a5388edc148be8a46c3f914c8b4e0/1209b729da6a46c8b1aa287bb8b7db58.jpg?imwidth=762"),
-    
 ]
 
 const dolar = fetch("https://economia.awesomeapi.com.br/json/last/USD").then((response)=>response.json()).then((resultado)=>{
@@ -53,7 +52,7 @@ $(document).ready(()=>{
         <img src="${product.image}" id="img-produto"/>
         <p id="product-name">${product.name}</p>
         <p id="product-descr">${product.description}</p>
-        <p id="product-price">${product.price}</p>
+        <p id="product-price">R$ ${product.price}</p>
         </li>`)
     })
 })
