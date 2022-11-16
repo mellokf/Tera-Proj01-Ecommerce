@@ -53,6 +53,7 @@ $(document).ready(()=>{
         <p id="product-name">${product.name}</p>
         <p id="product-descr">${product.description}</p>
         <p id="product-price">R$ ${product.price}</p>
+        <button class="btn btn-dark" type="button">Button</button>
         </li>`)
     })
 })

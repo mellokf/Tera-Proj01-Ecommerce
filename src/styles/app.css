@@ -1,34 +1,9 @@
 body{
     background-color: black;
-}
-
-ul{
-    display:flex;
-    width: 80%;
-    list-style: none;
-    flex-wrap: wrap;
-    color: white;
-}
-
-div li{
-    border: 1px solid white;
-    border-radius: 20px;
-    background-color: white;
-    margin: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    color: black;
-}
-
-div li:hover{
-    border: 1px solid rgb(161, 161, 161);
-    border-radius: 20px;
-    background-color: white;
-    margin: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
 }
 
 header{
-    height: 136px;
     background-color: black;
     width: 100%;
 }
@@ -44,22 +19,54 @@ header ul{
     line-height: 25px;
 }
 
-nav{
-    font-weight: 700;
-    font-size: 20px;
-    font-family: 'Inter';
-    position: relative;
+ul{
+    display:flex;
+    width: 80%;
+    list-style: none;
+    flex-wrap: wrap;
 }
 
-nav ul li{
-    margin-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+#home-products li{
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+    margin: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: black;
 }
 
-nav ul li a{
-    color: #fff;
-    text-decoration: none;
+#home-products li:hover{
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 20px;
+    background-color: white;
+    margin: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container-fluid{
+    background-color: black;
+}
+
+.navbar{
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.navbar-nav{
+    --bs-nav-link-color: white;
+    --bs-nav-link-hover-color: rgb(80, 74, 20);
+    --bs-nav-link-active-color: rgb(80, 74, 20);
+    --bs-navbar-active-color: rgb(255, 222, 131);
+    background-color: rgb(0, 0, 0);
+}
+
+.nav-link{
+    background-color: black;
+    border-radius: 0;
+    margin-top: 15px;
+    border: 0px solid black;
 }
 
 footer{
@@ -69,29 +76,13 @@ footer{
 }
 
 #home-products{
-    height: 100vh;
+    min-height: 1300px;
     background-color: #f1f1f1;
 }
 
 #home-banner{
     width: 100%;
     object-fit: cover;
-}
-
-#img-logo{
-    border: 50px;
-    width:100px;
-    margin-top: 68px;
-    transform: translateY(-50%);
-    padding-left: 30px;
-    position: relative;
-}
-
-#menu-superior{
-    width:100%;
-    float:left;
-    margin-left: 100%;
-    transform: translateX(-50%);
 }
 
 #footer-logo{
