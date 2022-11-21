@@ -48,54 +48,31 @@
          </div>
       </nav>
    </header>
-   <div id="page-products">
-   <main id="contact-section">
-      <br>
-      <br>
-      <form>
-
-         <label for="nomesobrenome">Nome e sobrenome</label>
-
-         <input type="text" id="nomesobrenome" class="input-padrao" required>
-         <label for="email">Email</label>
-
-         <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
-
-         <label for="telefone">Telefone</label>
-
-         <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXX-XXXX">
-
-         <label for="mensagem">Mensagem</label>
-         <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
-
-         <fieldset>
-
-            <legend>Como prefere o nosso contato?</legend>
-
-            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
-
-            <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="tadio-telefone">
-               Telefone</label>
-
-            <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>
-               Whatsapp</label>
-         </fieldset>
-         <legend>Qual horário prefere ser atendido?</legend>
-         <select>
-
-            <option>Manhã</option>
-            <option>Tarde</option>
-            <option>Noite</option>
-
-         </select>
-         </fieldset>
-
-         <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por Email?</label>
-
-         <input type="submit" value="Enviar Formulário" class="enviar">
-      </form>
-
-      <table>
+   <div id="page-products" class="pt-4">
+      <div class="container "> 
+         <div class="content-center">
+            <main id="contact-section">
+               <div class="mb-2">
+                  <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                  <input type="n" class="form-control" id="exampleFormControlInput1" placeholder="Cicranaldo Fulano">
+               </div>
+               <div class="mb-2">
+                  <label for="exampleFormControlInput1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+               </div>
+               <div class="mb-2">
+                  <label for="exampleFormControlInput1" class="form-label">Telefone</label>
+                  <input type="phone" class="form-control" id="exampleFormControlInput1" placeholder="phone number">
+               </div>
+               <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+               </div>
+         </div>
+      </div>
+      <div class="container "> 
+         <div class="content-center">
+         <table>
          <tr>
             <td>Dia</td>
             <td>Horário</td>
@@ -116,14 +93,20 @@
             <td>8h ~ 20h</td>
          </tr>
 
-      </table>
+         </table>
+         </div>
+      </div>
+      </main>
       <br>
       <br>
    </div>
-   </main>
    <footer>
       <img src="https://i.pinimg.com/originals/d5/c7/2c/d5c72cb18497d1ea65f29f0857a8c760.png" id="footer-logo">
    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
 </body>
 
 </html>
